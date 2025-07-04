@@ -1,0 +1,80 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.topbar {
+    height: 50px;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.layout {
+    display: flex;
+    flex: 1;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 0;
+}
+
+/* Optional: hide sidebar on small screen */
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        z-index: 1000;
+        height: 100%;
+        width: 230px;
+        top: 50px;
+        left: 0;
+        background-color: #1f2937;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+}
+
+.card {
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    min-width: 280px;
+}
+
+.lesson-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #10b981;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
