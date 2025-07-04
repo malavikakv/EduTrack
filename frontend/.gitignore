@@ -1,11 +1,12 @@
 # Ignore node modules
 node_modules/
-
+**/.env
 
 # Optional: ignore build output and env files
 dist/
 build/
-.env
+**/.env
+
 
 # IDEs
 .vscode/
