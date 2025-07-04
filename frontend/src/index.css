@@ -27,7 +27,6 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     flex: 0 1 calc(33.333% - 20px);
-    /* 🧠 3 per row with gap */
     box-sizing: border-box;
 }
 

@@ -1,7 +1,7 @@
-// src/pages/Courses.js
+
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import CourseCard from './coursecard'; // adjust the path if needed
+import CourseCard from './coursecard';
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);

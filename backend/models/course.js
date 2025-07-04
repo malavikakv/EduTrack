@@ -5,7 +5,7 @@ const courseSchema = new mongoose.Schema({
     description: String,
     progress: {
         type: Number,
-        default: 0 // % of completion
+        default: 0
     },
     lessons: [
         {

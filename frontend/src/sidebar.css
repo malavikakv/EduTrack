@@ -2,12 +2,10 @@
     width: 230px;
     height: 100vh;
     background-color: #122a4c;
-    /* Dark gray */
     color: white;
     padding: 20px;
     position: fixed;
     top: 50px;
-    /* account for topbar */
     left: 0;
     transition: transform 0.3s ease;
     z-index: 1000;
@@ -46,12 +44,12 @@
     background-color: #435068;
 }
 
-/* Sidebar hidden state */
+/* sidebar hidden state */
 .sidebar-hidden {
     transform: translateX(-100%);
 }
 
-/* Topbar styling */
+/* topbar styling */
 .topbar {
     height: 50px;
     background-color: #6ca1ea;

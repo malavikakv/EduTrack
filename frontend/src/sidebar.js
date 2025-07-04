@@ -1,4 +1,3 @@
-import React from 'react';
 import './sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -9,7 +8,7 @@ import {
     faTasks
 } from '@fortawesome/free-solid-svg-icons';
 
-import { Link } from 'react-router-dom'; // ✅ Import Link for routing
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
